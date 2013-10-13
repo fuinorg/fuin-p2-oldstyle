@@ -93,7 +93,7 @@
 
 			<!--Step 4: Add categories to the p2 metadata, so that you can see your
 				P2 repository in Eclipse Target Platform Wizard -->
-			<plugin>
+			<!-- plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-p2-plugin</artifactId>
 				<version>0.18.1</version>
@@ -109,7 +109,7 @@
 					<target>${basedir}/target/repository</target>
 					<categoryDefinition>${project.basedir}/category.xml</categoryDefinition>
 				</configuration>
-			</plugin>
+			</plugin -->
 
 		</plugins>
 
